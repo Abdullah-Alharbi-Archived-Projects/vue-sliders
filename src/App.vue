@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <slider seconds="4" :sliders="sliders" />
+    <slider seconds="8" :sliders="sliders" />
   </div>
 </template>
 
@@ -16,8 +16,8 @@ export default {
   data() {
     return {
       sliders: [
-        "https://cdn.pixabay.com/photo/2015/05/15/14/27/eiffel-tower-768501_1280.jpg",
-        MyHeader
+        MyHeader,
+        "https://cdn.pixabay.com/photo/2015/05/15/14/27/eiffel-tower-768501_1280.jpg"
       ]
     };
   }
@@ -25,6 +25,10 @@ export default {
 </script>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+}
 html,
 body {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
