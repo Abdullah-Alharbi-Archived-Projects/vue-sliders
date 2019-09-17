@@ -15,14 +15,6 @@ export default {
   },
   data() {
     return {
-      images: [
-        "https://cdn.pixabay.com/photo/2015/05/15/14/27/eiffel-tower-768501_1280.jpg"
-      ],
-      components: [
-        {
-          component: () => MyHeader
-        }
-      ],
       sliders: [
         "https://cdn.pixabay.com/photo/2015/05/15/14/27/eiffel-tower-768501_1280.jpg",
         MyHeader
