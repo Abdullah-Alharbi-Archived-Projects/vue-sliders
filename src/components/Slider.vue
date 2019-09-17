@@ -87,7 +87,8 @@ img {
   top: 40%;
   width: auto;
   padding: 16px;
-  color: rgba(0, 0, 0, 0.9);
+  color: #cccccc;
+  background-color: rgb(29, 26, 204);
   font-weight: bold;
   font-size: 18px;
   transition: 0.7s ease;
@@ -106,7 +107,8 @@ img {
 
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(71, 117, 201, 0.9);
+  color: #ffffff;
 }
 
 .full {
