@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <h1>Welcome to our site</h1>
+    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, perferendis.</h3>
   </div>
 </template>
 
@@ -15,6 +16,7 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 div {
