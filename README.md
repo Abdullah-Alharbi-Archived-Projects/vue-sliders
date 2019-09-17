@@ -1,29 +1,34 @@
-# vue-image-slider
+# vue-sliders
 
-## Project setup
-```
-npm install
-```
+**simple slider component**
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## how to use ?
 
-### Compiles and minifies for production
 ```
-npm run build
-```
+<template>
+  <div id="app">
+    <!-- in x seconds change the slide -->
+    <slider seconds="4" :sliders="sliders" />
+  </div>
+</template>
 
-### Run your tests
-```
-npm run test
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
+<script>
+import Slider from "./components/Slider.vue";
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+export default {
+  name: "app",
+  components: {
+    Slider
+  },
+  data() {
+    return {
+      sliders: [
+        "https://cdn.pixabay.com/photo/2015/05/15/14/27/eiffel-tower-768501_1280.jpg", // image url
+        MyHeader // custom component
+      ]
+    };
+  }
+};
+</script>
+```
